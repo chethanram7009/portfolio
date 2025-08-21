@@ -21,10 +21,6 @@ export default function Projects() {
               <li>💧   Throughout the basin, groundwater is declining at an average rate of 1.16 cm/year </li>
               <li>🌞   GGDI showed Aug 2015 to Oct 2017 as the most intense drought with -21.50 severity.</li>
             </ul>
-            <div style={{textAlign: 'center', marginTop: '1.5rem'}}>
-              <img src={graceDownscaling} alt="Graphical Abstract of GRACE Downscaling" style={{maxWidth: '700px', width: '100%', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.15)'}} />
-              <div style={{marginTop: '0.5rem', fontSize: '1.1rem', fontWeight: '500'}}>Graphical Abstract of GRACE Downscaling</div>
-            </div>
           </li>
           </ul>
         </li>
