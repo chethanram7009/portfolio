@@ -1,0 +1,114 @@
+
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #f7f8fa;
+  margin: 0;
+  color: #222;
+}
+
+.portfolio-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f7f8fa;
+}
+
+.portfolio-sidebar {
+  width: 260px;
+  background: #2d6cdf;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  box-shadow: 2px 0 12px rgba(0,0,0,0.04);
+}
+.portfolio-profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid #fff;
+}
+.portfolio-sidebar h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+.portfolio-sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+.portfolio-sidebar nav li {
+  margin-bottom: 1rem;
+}
+.portfolio-sidebar nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.05rem;
+  transition: color 0.2s;
+}
+.portfolio-sidebar nav a:hover {
+  color: #f0f4ff;
+  text-decoration: underline;
+}
+
+.portfolio-main {
+  flex: 1;
+  padding: 2.5rem 2rem;
+  background: #fff;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+
+.portfolio-section {
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+.portfolio-section h1 {
+  font-size: 2.2rem;
+  color: #2d6cdf;
+  margin-bottom: 0.5rem;
+}
+.portfolio-section h2 {
+  font-size: 1.5rem;
+  color: #2d6cdf;
+  margin-bottom: 0.5rem;
+}
+.portfolio-section ul {
+  list-style: none;
+  padding: 0;
+}
+.portfolio-section li {
+  background: #f0f4ff;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.portfolio-section li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .portfolio-layout {
+    flex-direction: column;
+  }
+  .portfolio-sidebar {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+    border-radius: 16px 16px 0 0;
+  }
+  .portfolio-profile-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+  .portfolio-main {
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 16px 16px;
+  }
+}
