@@ -24,7 +24,7 @@ export default function Extracurriculars() {
         </div>
         <div style={{ maxWidth: 320, textAlign: 'center' }}>
           <img src={sports2} alt="Playing snooker" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.15)' }} />
-          <div style={{ marginTop: '0.5rem', fontSize: '1rem' }}>Snooker practice at IISc</div>
+          <div style={{ marginTop: '0.5rem', fontSize: '1rem' }}>Snooker practice at IIRS</div>
         </div>
         <div style={{ maxWidth: 320, textAlign: 'center' }}>
           <img src={sports3} alt="Badminton practice" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.15)' }} />
